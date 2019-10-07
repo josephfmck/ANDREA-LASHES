@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 178px;
+}
+
+#logo {
+    width: 30%;
+    height: auto;
+}
+
+#hero {
+    width: 70%;
+    text-align: center;
+    background: pink;
+    margin: 10px auto;
+    padding: 40px 10px; 
+}
+
+#companyInfo {
+    background: palevioletred;
+    width: 45%;
+    text-align: center;
+    margin: 10px auto;
+}
+
+#companyInfo p {
+    font-size: 28px;
+}
+
+#productsContainer {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid grey;
+    width: 95%;
+    margin: 10px auto;
+    border-radius: 3px;
+}
+
+.flexRow {
+    display: flex;
+    flex-direction: row;
+    margin: 1px;
+}
+
+.productPanel {
+    background: whitesmoke;
+    text-align: center;
+    margin: 15px 40px;
+    padding: 5px;
+}
+
+.productImg {
+    width: 100%;
+    height: auto;
+}
