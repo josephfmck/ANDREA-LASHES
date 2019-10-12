@@ -1,32 +1,33 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 header {
-    background: green;
+    /*background: green;*/
     display: flex;
     align-items: center;
     justify-content: center;
     height: 178px;
+    border-bottom: 1px solid black;
+    box-shadow: 0px 1px 10px grey; /*3rd value blur*/
 }
 
 #logo {
-    width: 30%;
+    width: 29%;
     height: auto;
 }
 
 #hero {
     width: 70%;
     text-align: center;
-    background: pink;
+    background: whitesmoke;
     margin: 10px auto;
     padding: 40px 10px; 
 }
 
 #companyInfo {
-    background: palevioletred;
+    background: whitesmoke;
     width: 45%;
     text-align: center;
     margin: 10px auto;
@@ -55,7 +56,8 @@ header {
     background: whitesmoke;
     text-align: center;
     margin: 15px 40px;
-    padding: 5px;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 .productImg {
