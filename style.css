@@ -55,12 +55,16 @@ header {
 .productPanel {
     background: whitesmoke;
     text-align: center;
-    margin: 15px 40px;
+    margin: 15px 20px;
     padding: 10px;
     border-radius: 5px;
+    width: 30%;
+    height: 400px;
+
+    /*flex-grow flex-shrink for responsive pictures*/
 }
 
 .productImg {
-    width: 100%;
-    height: auto;
+    width: 325px;
+    height: 280px;
 }
