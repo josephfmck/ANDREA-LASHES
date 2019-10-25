@@ -19,5 +19,13 @@
 
 /**CAROUSEL*/
 .carousel-item img {
-    /*TODO resize images*/
+    /*w-100 is 100%*/
+    height: auto;
+    width: 30%;
+    margin-left: 90px;
+}
+
+/*prev and next color to black*/
+.carousel-control-prev, .carousel-control-next {
+    filter: invert(100%);
 }
